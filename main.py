@@ -1,9 +1,9 @@
 import pandas as pd
 
 try:
-    clientes = pd.read_csv('analise_com_merge/clientes.csv')
-    produtos = pd.read_csv('analise_com_merge/produtos.csv')
-    vendas = pd.read_csv('analise_com_merge/vendas.csv')
+    clientes = pd.read_csv('data/clientes.csv')
+    produtos = pd.read_csv('data/produtos.csv')
+    vendas = pd.read_csv('data/vendas.csv')
 
 except FileNotFoundError:
     print('Erro: Um ou mais arquivos CSV não foram encontrados.')
